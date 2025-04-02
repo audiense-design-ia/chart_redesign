@@ -30,14 +30,14 @@ export function NavBar() {
   const [activeItem, setActiveItem] = useState("home");
 
   const navItems = [
-    { id: "home", icon: <img src={HomeIcon} alt="Inicio" className="w-4 h-4" />, label: "Inicio" },
-    { id: "allReports", icon: <img src={AllReportsIcon} alt="Todos los Reportes" className="w-4 h-4" />, label: "Todos los Reportes" },
-    { id: "breakdown", icon: <img src={BreckdownIcon} alt="Desglose" className="w-4 h-4" />, label: "Desglose" },
+    { id: "home", icon: <img src={HomeIcon} alt="Inicio" className="w-4 h-4" />, label: "Home" },
+    { id: "allReports", icon: <img src={AllReportsIcon} alt="Todos los Reportes" className="w-4 h-4" />, label: "All Reports" },
+    { id: "breakdown", icon: <img src={BreckdownIcon} alt="Desglose" className="w-4 h-4" />, label: "Breakdown" },
     { id: "engagement", icon: <img src={EngagementIcon} alt="Engagement" className="w-4 h-4" />, label: "Engagement" },
-    { id: "popularity", icon: <img src={PopularityIcon} alt="Popularidad" className="w-4 h-4" />, label: "Popularidad" },
-    { id: "loyalty", icon: <img src={LoyaltyIcon} alt="Lealtad" className="w-4 h-4" />, label: "Lealtad" },
-    { id: "growth", icon: <img src={GrowthIcon} alt="Crecimiento" className="w-4 h-4" />, label: "Crecimiento" },
-    { id: "trends", icon: <img src={TrendsIcon} alt="Tendencias" className="w-4 h-4" />, label: "Tendencias" },
+    { id: "popularity", icon: <img src={PopularityIcon} alt="Popularidad" className="w-4 h-4" />, label: "Popularity" },
+    { id: "loyalty", icon: <img src={LoyaltyIcon} alt="Lealtad" className="w-4 h-4" />, label: "Loyalty" },
+    { id: "growth", icon: <img src={GrowthIcon} alt="Crecimiento" className="w-4 h-4" />, label: "Growth" },
+    { id: "trends", icon: <img src={TrendsIcon} alt="Tendencias" className="w-4 h-4" />, label: "Trends" },
     { id: "listBuilding", icon: <img src={ListBuildingIcon} alt="List Building" className="w-4 h-4" />, label: "List Building" },
     { id: "personas", icon: <img src={PersonasIcon} alt="Personas" className="w-4 h-4" />, label: "Personas" },
   ];
