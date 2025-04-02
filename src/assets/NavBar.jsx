@@ -66,7 +66,7 @@ export function NavBar() {
         <div className="mb-2 w-full">
           <NavItem
             icon={<i className="material-icons text-[16px]">settings</i>}
-            label="Configuración"
+            label="Settings"
             isExpanded={isExpanded}
             isActive={activeItem === "settings"}
             onClick={() => setActiveItem("settings")}
